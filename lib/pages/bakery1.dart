@@ -22,7 +22,7 @@ class Third extends StatelessWidget {
                 
               ),
               SizedBox(height: 10,),
-              InkWell(onTap: ()=> Navigator.pushNamed(context, '/four'),
+              InkWell(onTap: ()=> Navigator.pushNamed(context, '/homepage'),
                               child: new Container(
     
                 width: 245,

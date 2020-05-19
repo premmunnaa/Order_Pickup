@@ -9,6 +9,9 @@ import 'package:orderpickup/pages/documents.dart';
 import 'package:orderpickup/pages/regsiter.dart';
 import 'package:orderpickup/pages/shopimage.dart';
 
+import 'pages/bakery1.dart';
+import 'pages/bakery2.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -24,7 +27,9 @@ class MyApp extends StatelessWidget {
         '/Login':(context)=>Second(),
         '/UploadImages':(context)=>ShopImages(),
         '/Register':(context)=>Register(),
-         '/home':(context)=>Four(),
+         '/home':(context)=>Third(),
+          '/homepage':(context)=>Four(),
+         
          '/SubCat':(context)=>SubCategories(),
          '/Products':(context)=>Fifth()
       },
